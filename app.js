@@ -25,10 +25,10 @@ new Vue({
             }
             else {
               this.player2 -= x
-              this.che(this.player2)
               this.log.unshift({
                 text: 'Player 1 hits Player 2 for '+ x
             })
+            this.che(this.player2)
               this.turn = false;
             }
         },
